@@ -1,2 +1,3 @@
 # Sign-IA-tures
-The DNS will appears below soon!
+
+The proposition will appear in Signatures.pdf
