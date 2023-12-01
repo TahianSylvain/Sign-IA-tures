@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page</title>
+</head>
+<body>
+	<main>
+    	{% for f in files %}
+            <a href="{{f.adminupload.url}}" download="{{f.adminupload.url}}"
+			*œ class="file_grp" id="{{ f.id }}">{{ f.adminupload.name }}</a>
+	    {% endfor %}
+	</main>
+</body>
+</html>
