@@ -5,6 +5,7 @@ from django.shortcuts import render
 from .models import FilesAdmin
 from django.http import FileResponse
 
+
 def home(request):
     files = FilesAdmin.objects.all()  # .filter(owner=request.user.username)
     return render(request, 'index.html', {'files': files}, status=200)
