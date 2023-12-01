@@ -11,3 +11,4 @@ using python tensorflow & django platform
 
 The proposition will appear in Signatures.pdf
 >>>>>>> e8d118fe9645b7a9604a30afa783bc127237691d
+
