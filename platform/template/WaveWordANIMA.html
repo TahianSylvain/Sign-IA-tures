@@ -5,37 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool WAVE</title>
     <style>
-        * {
+          * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: "Poppins", sans-serif;
-          }
-          
+          }          
           body {
             display: flex;
             background: #000;
             min-height: 100vh;
             align-items: center;
             justify-content: center;
-          }
-          
+          }          
           .content {
             position: relative;
-          }
-          
+          }          
           .content h2 {
-            color: #fff;
-            font-size: 8em;
+            /* color: #fff; */
+            font-size: 6em;
             position: absolute;
             transform: translate(-50%, -50%);
-          }
-          
+          }          
           .content h2:nth-child(1) {
             color: transparent;
             -webkit-text-stroke: 2px #03a9f4;
-          }
-          
+          }          
           .content h2:nth-child(2) {
             color: #03a9f4;
             animation: animate 4s ease-in-out infinite;
@@ -76,10 +71,14 @@
 <body>
   <section>
     <div class="content">
-      <h2>Kemi</h2>
-      <h2>Kemi</h2>
+      <h2>Sign.IA.tures</h2>
+      <h2>Sign.IA.tures</h2>
     </div>
+    <!-- <form action="result/" method="post">
+      {% csrf_token %}
+      <input type="text" name="name" id="name">
+      <input type="submit" value="Generate">
+    </form>   -->
   </section>
-  
 </body>
 </html>
