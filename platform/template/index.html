@@ -8,8 +8,14 @@
 <body>
 	<main>
     	{% for f in files %}
-            <a href="{{f.adminupload.url}}" download="{{f.adminupload.url}}"
-			*œ class="file_grp" id="{{ f.id }}">{{ f.adminupload.name }}</a>
+			<h2>
+				<a href="{{f.adminupload.url}}" download="{{f.adminupload.url}}"
+				 class="file_grp" id="{{ f.id }}">{{ f.adminupload.name }}</a>
+			</h2>
+			<h2>			
+				<a href="{{f.adminupload.url}}" download="{{f.adminupload.url}}"
+				class="file_grp" id="{{ f.id }}">{{ f.adminupload.name }}</a>
+			</h2>
 	    {% endfor %}
 	</main>
 </body>

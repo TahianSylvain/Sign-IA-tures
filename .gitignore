@@ -1,5 +1,6 @@
 platforme/activision.sh
 */__pycache__/
+*/*/__pycache__/
 platforme/__pycache__/
 main/__pycache__/
 main/migrations/__pycache__/
