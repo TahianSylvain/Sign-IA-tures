@@ -1,4 +1,6 @@
-# the files here are ignored, add them here before commiting or staging
-
-
-
+platforme/activision.sh
+*/__pycache__/
+*/*/__pycache__/
+platforme/__pycache__/
+main/__pycache__/
+main/migrations/__pycache__/
