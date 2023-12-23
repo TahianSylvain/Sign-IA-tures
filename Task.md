@@ -16,3 +16,7 @@ listeko eto rehefa vita ny backlog requirement
 ## LIST OF TASKS: BACKLOG
 
 
+
+pwned: 
+    http://sylvain:83h5JxWbF@6MD7p@127.0.0.1:8000/admin/
+    http://root:83h5JxWbF@6MD7p@localhost:8000/admin/

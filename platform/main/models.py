@@ -1,9 +1,12 @@
 from django.db import models
-# from django.auth.models import USer
+from django.contrib.auth.models import User
+
 
 class FilesAdmin(models.Model):
-    # owner = models.ForiegnKey(User, on_delete=models.CASCADE)
-    adminupload = models.FileField(upload_to='media')
+    owner = models.ForeignKey(
+        User,blank=True,null=True,
+        on_delete=models.CASCADE )
+    adminupload = models.FileField(upload_to='', blank=True, null=True)
     
     def __str__(self):
         return self.adminupload.url

@@ -1,5 +1,6 @@
 Package                 Version
 ----------------------- ------------
+WeasyPrint
 amqp                    5.1.1
 asgiref                 3.7.2
 attrs                   23.1.0
